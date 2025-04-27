@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: whitesmoke;
+     
+  }
+  
+  body {
+      height: 250vh;
+  }
+  
+  #header{
+      width: 100%;
+      height:230px ;
+      display: flex;
+      flex-direction: column;
+      background-color: white !important;
+   
+  }
+  
+  
+  
+  .navbar-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+    
+    .navbar-brand,
+    .nav-link {
+      color: #00000080 !important;
+      font-size: 18px !important;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif !important;
+    }
+    .navbar-brand:hover {
+      color: black !important;
+      text-decoration: underline !important;
+    }
+    .nav-link:hover {
+      color: black !important;
+      text-decoration: underline !important;
+    }
+  
+  
+  
+  #header-üst{
+      width: 100%;
+      height: 175px;
+      display: flex;
+  
+  }
+  #yazi{
+      width: 25%;
+      height: 175px;
+      padding-top:80px;
+      padding-left: 5px;
+  }
+  
+  h5{
+      letter-spacing: 2px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      color:gray !important;
+      font-size: 19px;
+  }
+  #logo{
+      width: 75%;
+      height: 175px;
+      padding-left:250px;
+  }
+  .logo{
+      width: 20%;
+      height: 175px;
+      
+  }
+  #header-alt{
+      width: 100%;
+      height: 75px;
+  }
+  #main img{
+      width: 100%;
+      height: 700px !important;
+     
+      background-color:whitesmoke;
+  }
+  #iletişim{
+      width: 100%;
+      height: 500px;
+     
+      margin-top: 3rem;
+      display: flex;
+  }
+  #iletişim-sol{
+  
+      width: 50%;
+      height: 100%;
+     
+  }
+  #iletişim-sağ{
+      width: 50%;
+      height: 100%;
+     
+      margin: auto;
+  
+  }
+  .sağ{
+      width: 70%;
+      height: 80%;
+      background-color:white;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 3rem;
+      border-style: solid; border-width: 2px;
+      border-color: gray;
+  }
+  .sağ ul{
+  display: flex;
+  flex-direction: column;
+    margin-left: 3rem;
+    list-style-type: none;
+  margin-top: 2rem;
+  gap:30px;
+  color: black;
+  font-size: 15px !important;
+  opacity: 0.7 !important;
+  
+  }
+  .sağ ul li:hover{
+     
+      font-size: 18px !important;
+      color: gray;
+  }
+  
+  .iletişim-yazi{
+      color:gray;
+      text-align: center;
+  }
+  .ilk{
+      font-size: 18px;
+      color:black;
+      margin-left: 3rem;
+      margin-top: 1rem;
+  }
+  .bir{
+      background-color: #f8f9fa;
+      border-color: gray;
+      border-radius: 10px;
+      margin-left: 3rem;
+      width: 250px;
+      
+  }
+  .ilk-1{
+      font-size: 18px;
+      color:black;
+  
+      margin-left: 3rem;
+   
+     
+  }
+  
+  .iki{
+      background-color: #f8f9fa;
+      border-color: gray;
+      border-radius: 10px;
+      margin-left: 3rem;
+      width: 250px;
+     
+  }
+  .msj{
+      font-size: 18px;
+      color:black;
+  
+      margin-left: 3rem;
+  }
+  .mesaj{
+      background-color: #f8f9fa;
+      border-color: gray;
+      border-radius: 10px;
+      margin-left: 3rem;
+      resize: none;
+  }
+  #iletişim-sağ button{
+      border: none;
+      background-color:black;
+      color: whitesmoke;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      width: 150px;
+      padding: 0.4rem 0;
+      margin-left: 12rem;
+      margin-top: 1px;
+      opacity: 0.7;
+  }
+  #iletişim-sağ button:hover{
+   
+      cursor: pointer;
+      background-color: whitesmoke;
+      color: black;
+      opacity: 0.7;
+      font-size: 1.3rem;
+  }
+  #footer{
+      width: 100%;
+      height: 350px;
+    display:flex;
+    flex-direction: column;
+   
+     
+  }
+  #footer-üst{
+      width: 100%;
+      height: 275px;
+      margin-top: 2rem;
+     
+  
+  
+  }
+  iframe{
+      width: 85%;
+      height: 100%;
+      margin-left:110px;
+      border-radius: 20px;
+    
+  }
+  #footer-alt{
+      width: 100%;
+      height: 75px;
+      padding-top: 1rem;
+     
+  
+  }
+  h3{
+      color:gray !important;
+      text-align: center;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+      font-size: 30px !important;
+  
+  }
+  
+  #hakkimizda {
+      width: 100%;
+      height: 550px;
+  
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: row;
+     
+  
+  }
+  #hakkimizda-foto{
+      width: 40%;
+      height: 400px;
+   
+     
+      margin-top: 4rem;
+  
+  }
+  .baba-ben{
+      width: 55%;
+      height: 330px;
+      margin-left: 8rem;
+      margin-top: 3rem;
+      border-radius: 50%;
+  }
+  #hakkimizda-yazi{
+      width: 60%;
+      height: 400px;
+  margin-top:4rem;
+  }
+  .hakkimizda-yazi{
+      color: gray;
+      font-size: 18px;
+      font-style: italic;
+      letter-spacing: 1px;
+      margin-top: 5rem;
+      text-indent: 15px;
+  }
+  span{
+      background-color:white;
+      border-radius: 10px;
+      padding: 5px;
+  }
+  
+  #kutucuklar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      gap: 8rem;
+     
+    
+    
+  
+  }
+  
+  .kutucuk {
+      width: 330px;
+      height: 330px;
+     
+    
+    
+      
+  }
+  .btn{
+      position: absolute;
+      
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color:whitesmoke;
+      color: gray;
+      font-size: 16px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+      border-radius: 7px;
+      margin-left: -10rem;
+      margin-top: 18.5rem;
+  }
+  .btn:hover{
+      opacity: 0.8;
+      font-size: 17px;
+  }
+  .kutucuk-foto{
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+  }
+  .kutucuklar-baslik {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+    
+  }
+  span:hover{
+      color:black;
+  
+  }
+  h1{
+      letter-spacing: 2px;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif !important;
+      color:gray !important;
+      font-size: 28px !important;
+  }
+  
+  #blog {
+      width: 100%;
+      height: 550px;
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+  }
+  #blog-1{
+  width: 100%;
+  height: 135px;
+  
+  }
+  .blog-yazi{
+      text-align: center;
+      text-indent: 10px;
+      color: gray;
+      font-size: 17px;
+     
+  }
+  #blog-2{
+      width: 100%;
+      height: 140px;
+     
+  }
+  #blog-3{
+      width: 100%;
+      height: 275px;
+    
+  }
+  
+  #fiyat-al {
+      background-image: url(resimler/karo6.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100%;
+      height: 400px;
+      margin-top: 2rem;
+  }
+  
+  .fiyat-al-kutu {
+      width: 100%;
+      height: 400px;
+      flex-direction: column;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .fiyat-al-kutu button {
+      border: none;
+      background-color:whitesmoke;
+      color: gray;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      width: 200px;
+      padding: 0.8rem 0;
+  }
+  
+  .fiyat-al-kutu button:hover {
+      opacity: 0.9;
+      cursor: pointer;
+      font-size: 1.2rem;
+  }
